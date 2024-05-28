@@ -1,4 +1,4 @@
-package com.soulcode.pizzariaJavaSpring.controller;
+package com.soulcode.pizzariaJavaSpring.restController;
 
 
 import com.soulcode.pizzariaJavaSpring.model.dtos.PizzaPedidaDTO;

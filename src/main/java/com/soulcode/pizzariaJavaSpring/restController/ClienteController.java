@@ -1,12 +1,10 @@
-package com.soulcode.pizzariaJavaSpring.controller;
+package com.soulcode.pizzariaJavaSpring.restController;
 import com.soulcode.pizzariaJavaSpring.model.dtos.ClienteDTO;
-import com.soulcode.pizzariaJavaSpring.repositories.ClienteRepository;
 import com.soulcode.pizzariaJavaSpring.services.ClienteService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.Optional;
 
 @RestController
 public class ClienteController {

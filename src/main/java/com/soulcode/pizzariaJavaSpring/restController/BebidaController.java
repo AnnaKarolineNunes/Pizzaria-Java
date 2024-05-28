@@ -1,12 +1,10 @@
-package com.soulcode.pizzariaJavaSpring.controller;
+package com.soulcode.pizzariaJavaSpring.restController;
 
 
 import com.soulcode.pizzariaJavaSpring.model.dtos.BebidaDTO;
-import com.soulcode.pizzariaJavaSpring.model.dtos.ClienteDTO;
 import com.soulcode.pizzariaJavaSpring.services.BebidaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 
 @RestController
@@ -43,6 +41,4 @@ public class BebidaController {
     public BebidaDTO updateByid(@PathVariable int idBebida, @RequestBody BebidaDTO dto){
         return this.bebidaService.updateById(idBebida,dto);
     }
-
-
 }
